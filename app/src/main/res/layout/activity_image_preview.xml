@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        tools:context="com.ratus.trex.nikbot.ImagePreview">
+
+        <ImageView
+            android:id="@+id/img_prv"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_action_picture" />
+
+        <TextView
+            android:id="@+id/img_dim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/img_board"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/img_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/img_tags"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/btAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="0.23"
+                android:onClick="addList"
+                android:padding="10dp"
+                fancy:defaultColor="#ff00751d"
+                fancy:focusColor="#9bd823"
+                fancy:fontIconResource="&#xf067;"
+                fancy:iconPosition="top"
+                fancy:radius="20dp"
+                fancy:text=""
+                fancy:textColor="#E5000000"
+                fancy:textSize="1dp" />
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/btDown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="0.23"
+                android:onClick="dloadImage"
+                android:padding="10dp"
+                fancy:defaultColor="#ff00751d"
+                fancy:focusColor="#9bd823"
+                fancy:fontIconResource="&#xf019;"
+                fancy:iconPosition="top"
+                fancy:radius="20dp"
+                fancy:text=""
+                fancy:textColor="#E5000000"
+                fancy:textSize="1dp" />
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/btFav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="0.24"
+                android:onClick="addToFav"
+                android:padding="10dp"
+                fancy:defaultColor="#ff00751d"
+                fancy:focusColor="#9bd823"
+                fancy:fontIconResource="&#xf004;"
+                fancy:iconPosition="top"
+                fancy:radius="20dp"
+                fancy:text=""
+                fancy:textColor="#E5000000"
+                fancy:textSize="1dp" />
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/btSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="0.24"
+                android:onClick="search_this"
+                android:padding="10dp"
+                fancy:defaultColor="#ff00751d"
+                fancy:focusColor="#9bd823"
+                fancy:fontIconResource="&#xf085;"
+                fancy:iconPosition="top"
+                fancy:radius="20dp"
+                fancy:text=""
+                fancy:textColor="#E5000000"
+                fancy:textSize="1dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

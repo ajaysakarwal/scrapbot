@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_options" android:icon="@drawable/abc_ic_menu_paste_mtrl_am_alpha"
+        app:showAsAction="always" android:title="Options" android:orderInCategory="100"/>
+    <item android:id="@+id/mainMenu" android:icon="@drawable/abc_ic_menu_moreoverflow_mtrl_alpha"
+        app:showAsAction="always" android:title="Menu" android:orderInCategory="300">
+        <menu>
+            <item android:id="@+id/action_refresh" android:title="@string/action_refresh"
+                android:icon="@drawable/ic_action_refresh" android:orderInCategory="100"
+                app:showAsAction="never" />
+            <item android:id="@+id/action_favorite" android:title="@string/action_favorites"
+                android:icon="@drawable/ic_action_favorite" android:orderInCategory="100"
+                app:showAsAction="never" />
+            <item android:id="@+id/action_download" android:title="@string/action_download"
+                android:icon="@drawable/ic_action_download" android:orderInCategory="100"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>

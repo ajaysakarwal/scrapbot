@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffffbf4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ff383637"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:text="@string/name_name"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+            <EditText
+                android:id="@+id/txt_name"
+                android:layout_width="0dp"
+                android:hint="Search with Name"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.75"
+                android:singleLine="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:text="@string/tag_name"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+            <AutoCompleteTextView
+                android:id="@+id/txt_tags"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="Image Tags"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:text="@string/width_name"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+            <EditText
+                android:id="@+id/txt_width"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:hint="Image Width"
+                android:inputType="number"
+                android:singleLine="true" />
+
+            <Button
+                android:id="@+id/btn_width"
+                android:text="+"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.00" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:text="@string/height_name"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+            <EditText
+                android:id="@+id/txt_height"
+                android:layout_width="0dp"
+                android:hint="Image Height"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:inputType="number"
+                android:singleLine="true" />
+
+            <Button
+                android:id="@+id/btn_height"
+                android:text="+"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:text="@string/ratio_name"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+            <EditText
+                android:id="@+id/txt_ratio"
+                android:layout_width="0dp"
+                android:hint="Pixel Ratio"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:singleLine="true" />
+
+            <Button
+                android:id="@+id/btn_ratio"
+                android:text="+"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:text="@string/sort_name"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+            <EditText
+                android:id="@+id/txt_sort"
+                android:layout_width="0dp"
+                android:hint="Sorting Method"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:singleLine="true" />
+
+            <Button
+                android:id="@+id/btn_sort"
+                android:text="+"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:text="@string/filter_name"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+            <EditText
+                android:id="@+id/txt_filter"
+                android:layout_width="0dp"
+                android:hint="Filtering Method"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:singleLine="true" />
+
+            <Button
+                android:id="@+id/btn_filter"
+                android:text="+"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:text="@string/color_name"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+            <EditText
+                android:id="@+id/txt_color"
+                android:layout_width="0dp"
+                android:hint="Image Color"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:singleLine="true" />
+
+            <Button
+                android:id="@+id/btn_color"
+                android:text="+"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:text="@string/date_name"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+            <EditText
+                android:id="@+id/txt_date"
+                android:layout_width="0dp"
+                android:hint="MM.DD.YYYY"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:inputType="date"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/bt_exit_opt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                fancy:borderColor="#FFFFFF"
+                fancy:borderWidth="0dp"
+                fancy:defaultColor="#ff158932"
+                fancy:focusColor="#9bd823"
+                fancy:radius="2dp"
+                fancy:text="@string/txt_bt_exit_opt"
+                fancy:textColor="#E5000000" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
