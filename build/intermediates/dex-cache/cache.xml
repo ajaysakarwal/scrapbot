@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Ajay\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\Ajay\AndroidStudioProjects\NikBot\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-79da74ee644a65600508db5b3ae7b39be903edb6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ajay\AndroidStudioProjects\NikBot\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\Ajay\AndroidStudioProjects\NikBot\app\build\intermediates\pre-dexed\debug\classes-11b6c29944f377ec4a21112e3ee5c7ab3ec35991.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ajay\AndroidStudioProjects\NikBot\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\Ajay\AndroidStudioProjects\NikBot\app\build\intermediates\pre-dexed\debug\classes-80d2e5688adc858d3f248e925411f4a986a5b3c7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ajay\AndroidStudioProjects\NikBot\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="97f7e239e86ef994de894818fdd8a71d2e89d6aa">
+        <dex dex="C:\Users\Ajay\AndroidStudioProjects\NikBot\app\build\intermediates\pre-dexed\debug\classes-2db106741a5828ab84f1fc6f096f7949dc9c154c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ajay\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.4\dd9eeb557650c4ad7394df23f0f5cf27a7cfc697\universal-image-loader-1.9.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
+        <dex dex="C:\Users\Ajay\AndroidStudioProjects\NikBot\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.4-27213096b95aa6a7027190ee94e98a9f48daae9e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ajay\AndroidStudioProjects\NikBot\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\Ajay\AndroidStudioProjects\NikBot\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-bd0034de774d3d1bca97cfcbeccb16cbb6e3b939.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ajay\AndroidStudioProjects\NikBot\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="C:\Users\Ajay\AndroidStudioProjects\NikBot\app\build\intermediates\pre-dexed\debug\classes-d2bd0bc2ab5003bd7c721807846fdfc9128bd860.jar" />
+    </item>
+    <item
+        jar="C:\Users\Ajay\AndroidStudioProjects\NikBot\app\build\intermediates\exploded-aar\com.github.medyo\fancybuttons\1.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="10592d223158f9f5685bf20e31bc075f20965eb1">
+        <dex dex="C:\Users\Ajay\AndroidStudioProjects\NikBot\app\build\intermediates\pre-dexed\debug\classes-853a7afedeba7e3ff2407d81164abc697558395c.jar" />
+    </item>
+
+</items>
